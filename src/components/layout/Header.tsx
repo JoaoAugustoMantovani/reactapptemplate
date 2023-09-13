@@ -8,6 +8,7 @@ return(
         <div className="Home">
             <img src={Logo}/>
         </div>
+        <div></div>
     </header>
 
 )
