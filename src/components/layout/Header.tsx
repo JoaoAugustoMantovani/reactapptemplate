@@ -1,12 +1,13 @@
 import React from "react";
 import App from "../../App";
-import Logo from '../assets/LogoNoText.png';
+
+import './Header.modules.css';
 
 const Header : React.FC = () =>{
 return(
     <header>
         <div className="Home">
-            <img src={Logo}/>
+            <img src={require("../assets/img/image.png")} className="logo" alt= ""/>
         </div>
         <div></div>
     </header>

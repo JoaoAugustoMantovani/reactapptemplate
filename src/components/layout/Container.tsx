@@ -1,10 +1,12 @@
 import React from "react";
 import App from "../../App";
+import './Container.modules.css'
 
 const Container : React.FC = () =>{
     return(
-        <h1> Container </h1>
-    
+       <div className="Container">
+      
+       </div>
     )
     }
 export default Container;

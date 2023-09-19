@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/global.css';
 import Container from './components/layout/Container'
 import Header from './components/layout/Header'
 
